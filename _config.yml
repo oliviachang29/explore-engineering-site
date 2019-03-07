@@ -1,0 +1,13 @@
+title: Explore Engineering
+description: Creating the engineers of tomorrow. Explore Engineering is a Chicago-based event aimed to introduce high school students into the vast field of engineering. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

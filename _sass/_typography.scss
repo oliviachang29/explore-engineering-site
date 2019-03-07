@@ -1,0 +1,26 @@
+@import "variables";
+
+h1 {
+	font-family: $title-font;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: $title-font;
+	font-weight: bold;
+}
+
+p {
+	font-family: $text-font;
+	font-weight: 100;
+	font-size: 18px;
+}
+
+a {
+	color: $main-color;
+	transition: .2s all;
+	&:hover {
+		color: $dark-blue;
+		text-decoration: none;
+	}
+}

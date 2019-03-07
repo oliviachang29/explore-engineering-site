@@ -1,0 +1,31 @@
+#footer {
+	background-color: #060935;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px !important;
+  margin: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: white;
+  border: 2px solid transparent;
+  color: #060935;
+  &:hover {
+  	border-color: white;
+  	background-color: transparent;
+  	color: white;
+  }
+}
+
+#copyright {
+	margin-top: 30px;
+	font-size: 15px;
+	color: $dark-gray;
+}

@@ -1,0 +1,37 @@
+@import "variables";
+
+#schedule {
+	h1 {
+		margin-top: 10px;
+		margin-bottom: 40px;
+	}
+}
+
+.schedule-card {
+	padding: 25px 25px 40px;
+	margin-bottom: 25px;
+	color: black;
+	background-color: white;
+	border: none !important;
+	@media (min-width: $md) {
+		height: 400px;
+		margin-bottom: 25px;
+		padding: 25px;
+		/*padding-bottom: 40px;*/
+	}
+	@media (min-width: $lg) {
+		height: 430px;
+	}
+	li {
+		font-style: italic;
+		font-weight: 100;
+	}
+	.card-title {
+		font-weight: 500;
+		font-size: 20px;
+	}
+
+	.card-time {
+		font-weight: 400;
+	}
+}

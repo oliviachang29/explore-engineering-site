@@ -1,0 +1,59 @@
+@import "variables";
+
+#about {
+
+	h1 {
+		margin-bottom: 10px;
+	}
+
+	hr {
+		margin: 30px;
+	}
+
+	h2 {
+		text-align: center;
+		margin: 30px;
+	}
+
+	img {
+		max-width: 100%;
+		@media (min-width: $md) {
+			max-width: 90%;	
+		}
+		margin: 0 auto;
+		height: auto;
+		
+		align-self: center;
+	}
+
+}
+
+.dot {
+	margin: 0 5px;
+}
+
+#about-noun {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold
+}
+
+#about-definition {
+	text-align: center
+}
+
+.flex-row {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.about-paragraph {
+	text-align: center;
+	@media (min-width: $lg) {
+		text-align: left;
+		margin-left: 30px;
+	}
+}
