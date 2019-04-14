@@ -198,6 +198,11 @@ a {
       text-align: left;
       margin-left: 30px; } }
 
+.person-circular img {
+  height: 200px !important;
+  width: 200px !important;
+  border-radius: 300px; }
+
 /* colors */
 /* fonts */
 /*$title-font: Poppins;*/
