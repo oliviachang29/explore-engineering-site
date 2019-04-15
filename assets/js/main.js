@@ -8,6 +8,6 @@ $(function() {
 		
 	});
 
-	var scroll = new SmoothScroll('a[href*="#"]');
+	var scroll = new SmoothScroll('a[href*="#"]', {ignore: '[data-scroll-ignore]'});
     var lazyLoadInstance = new LazyLoad();
 });
